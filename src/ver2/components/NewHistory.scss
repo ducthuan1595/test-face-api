@@ -1,0 +1,30 @@
+.container {
+     display: flex;
+     height: 100vh; // Thiết lập chiều cao của container là 100% chiều cao của viewport
+
+     .section {
+          margin: 5px;
+          flex: 1;
+          
+
+          .imgs {
+               margin-top: auto;
+               width: 100%;
+               height: 80%;
+               object-fit: cover;
+          }
+     }
+
+     .I {
+          text-align: center;
+          justify-content: center;
+          margin-top: 25px;
+          font-size: 30px;
+     }
+
+     .text {
+          flex: 1;
+          font-size: 25px;
+          text-align: center;
+     }
+}
